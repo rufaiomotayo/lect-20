@@ -9,7 +9,7 @@ MY_API_SECRET_KEY = "x95xd2dbxc3x175md5"
 BASE_URL = 'https://api.nytimes.com/svc/search/v2/articlesearch.json'
 
 params = {
-    'q': 'braves', # Query keywords
+    'q': 'braves', # Query keywords  
     'api-key': os.getenv(MY_API_SECRET_KEY),
 }
 
